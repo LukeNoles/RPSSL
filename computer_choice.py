@@ -3,9 +3,10 @@ class ComputerChoice():
     def __init__ (self):
         self.name = "Unknown"
         self.value = 0
-    def get_value():
-        computer_value = ranom.randint(1, 5)
-    def get_name():
+    def get_value(self):
+        self.value = random.randint(1, 5)
+        return self.value
+    def get_name(self):
         if self.value == 1:
             self.name = "rock"
             return self.name

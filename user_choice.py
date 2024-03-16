@@ -1,8 +1,12 @@
 class UserChoice():
-    def __init__ (self, value):
+    def __init__ (self):
         self.name = "Unknown"
         self.value = 0
-    def get_name():
+    def get_value(self):
+        print ("Rock (1), Paper (2), Scissors (3), Lizard (4), Spock (5)")
+        self.value = int(input())
+        return self.value
+    def get_name(self):
         if self.value == 1:
           self.name = "rock"
           return self.name
