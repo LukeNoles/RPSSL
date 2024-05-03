@@ -45,3 +45,5 @@ class Play():
             return "Spock blasts rock! You lose!"
         elif self.user_value == 3 and self.computer_value == 5:
             return "Spock vaporizes scissors! You lose!"
+        elif self.user_value == 3 and self.computer_value == 1:
+            return "Rock smashes scissors! You lose!"

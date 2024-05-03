@@ -26,5 +26,6 @@ while True:
     print("Battle once more?")
     print("Yes (y), No (n)")
     play_again = input()
-    if play_again.lower() != "y":
+    again = ["yes", "y"]
+    if play_again.lower() not in again:
         break
